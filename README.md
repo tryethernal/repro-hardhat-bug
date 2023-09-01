@@ -1,0 +1,6 @@
+- `yarn`
+- `npx hardhat node`
+- `node listen.js`
+- Stop hardhat node, and wait for a few blocks to pass
+- `npx hardhat node`
+- `listen.js` should log all blocks between the latest launch & the latest block
